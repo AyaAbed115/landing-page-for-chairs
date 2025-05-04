@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fcdcdc;
+    color: #102C57;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 50px;
+  }
+  
+  .text-section {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .text-section h1 {
+
+    font-size: 40px;
+    color: #102C57;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-weight: bolder;
+
+  }
+  
+  .text-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #102C57;
+  }
+  
+  button {
+    display: inline-block;
+    background-color: #1679AB;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+h2{
+    margin-left: 27px ;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #102C57;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .features {
+    max-width: 1100px;
+    margin: 50px auto 50px;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .feature-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .feature-item .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1679AB;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-size: 0.9rem;
+    color: #102C57;
+  }
+  
+  /* Testimonial Section */
+  .testimonial {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testimonial-card {
+    background-color: #1679AB;
+    color: #fff;
+    border-radius: 10px;
+    max-width: 1050px;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .testimonial-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .testimonial-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-text p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-text span {
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  
+  .testimonial-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  #h2-text{
+    margin-left: 200px ;
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #102C57;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  /* Grid Container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #e3eff6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+    flex: 1;
+  }
+  
+  .card-content h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #102C57;
+  }
+  
+  .card-content ul {
+    list-style: none;
+    margin-bottom: 15px;
+  }
+  
+  .card-content ul li {
+    font-size: 0.9rem;
+    color: 102C57#555;
+    margin-bottom: 5px;
+  }
+  
+  /* Price and Button */
+  .price-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price-add p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #102C57;
+  }
+  
+  .add-to-cart {
+    background-color: #1679AB;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #145c3f;
+  }
